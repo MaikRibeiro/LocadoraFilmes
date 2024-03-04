@@ -68,6 +68,7 @@ namespace prjLocadora
             this.produtorasToolStripMenuItem.Name = "produtorasToolStripMenuItem";
             this.produtorasToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.produtorasToolStripMenuItem.Text = "Produtoras";
+            this.produtorasToolStripMenuItem.Click += new System.EventHandler(this.produtorasToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -79,6 +80,7 @@ namespace prjLocadora
             this.filmesToolStripMenuItem.Name = "filmesToolStripMenuItem";
             this.filmesToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.filmesToolStripMenuItem.Text = "Filmes";
+            this.filmesToolStripMenuItem.Click += new System.EventHandler(this.filmesToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -90,6 +92,7 @@ namespace prjLocadora
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(270, 34);
             this.btnSair.Text = "Sair";
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmPrincipal
             // 

@@ -16,5 +16,22 @@ namespace prjLocadora
         {
             InitializeComponent();
         }
+
+        private void produtorasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Produtoras prod = new Produtoras();
+            prod.Show();
+        }
+
+        private void filmesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFilmes filmes = new frmFilmes();
+            filmes.Show();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
