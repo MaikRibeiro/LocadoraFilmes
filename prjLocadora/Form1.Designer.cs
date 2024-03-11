@@ -66,31 +66,31 @@ namespace prjLocadora
             // produtorasToolStripMenuItem
             // 
             this.produtorasToolStripMenuItem.Name = "produtorasToolStripMenuItem";
-            this.produtorasToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.produtorasToolStripMenuItem.Size = new System.Drawing.Size(202, 34);
             this.produtorasToolStripMenuItem.Text = "Produtoras";
             this.produtorasToolStripMenuItem.Click += new System.EventHandler(this.produtorasToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(267, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(199, 6);
             // 
             // filmesToolStripMenuItem
             // 
             this.filmesToolStripMenuItem.Name = "filmesToolStripMenuItem";
-            this.filmesToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.filmesToolStripMenuItem.Size = new System.Drawing.Size(202, 34);
             this.filmesToolStripMenuItem.Text = "Filmes";
             this.filmesToolStripMenuItem.Click += new System.EventHandler(this.filmesToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(267, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(199, 6);
             // 
             // btnSair
             // 
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(270, 34);
+            this.btnSair.Size = new System.Drawing.Size(202, 34);
             this.btnSair.Text = "Sair";
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 

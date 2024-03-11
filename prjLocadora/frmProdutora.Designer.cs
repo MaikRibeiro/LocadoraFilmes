@@ -30,14 +30,14 @@ namespace prjLocadora
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtCodProd = new System.Windows.Forms.TextBox();
-            this.txtTelProd = new System.Windows.Forms.TextBox();
-            this.txtProd = new System.Windows.Forms.TextBox();
             this.txtEmailProd = new System.Windows.Forms.TextBox();
+            this.txtProd = new System.Windows.Forms.TextBox();
+            this.txtTelProd = new System.Windows.Forms.TextBox();
+            this.txtCodProd = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnPrimeiro = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnProximo = new System.Windows.Forms.Button();
@@ -68,35 +68,33 @@ namespace prjLocadora
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados da Produtora";
             // 
-            // label1
+            // txtEmailProd
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(25, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Código Produtora";
+            this.txtEmailProd.Location = new System.Drawing.Point(511, 105);
+            this.txtEmailProd.Name = "txtEmailProd";
+            this.txtEmailProd.Size = new System.Drawing.Size(259, 26);
+            this.txtEmailProd.TabIndex = 7;
             // 
-            // label2
+            // txtProd
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(25, 105);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Telefone Produtora";
+            this.txtProd.Location = new System.Drawing.Point(437, 37);
+            this.txtProd.Name = "txtProd";
+            this.txtProd.Size = new System.Drawing.Size(333, 26);
+            this.txtProd.TabIndex = 6;
             // 
-            // label3
+            // txtTelProd
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(352, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Produtora";
+            this.txtTelProd.Location = new System.Drawing.Point(176, 102);
+            this.txtTelProd.Name = "txtTelProd";
+            this.txtTelProd.Size = new System.Drawing.Size(174, 26);
+            this.txtTelProd.TabIndex = 5;
+            // 
+            // txtCodProd
+            // 
+            this.txtCodProd.Location = new System.Drawing.Point(165, 37);
+            this.txtCodProd.Name = "txtCodProd";
+            this.txtCodProd.Size = new System.Drawing.Size(110, 26);
+            this.txtCodProd.TabIndex = 4;
             // 
             // label4
             // 
@@ -108,33 +106,35 @@ namespace prjLocadora
             this.label4.TabIndex = 3;
             this.label4.Text = "Email Produtora";
             // 
-            // txtCodProd
+            // label3
             // 
-            this.txtCodProd.Location = new System.Drawing.Point(165, 37);
-            this.txtCodProd.Name = "txtCodProd";
-            this.txtCodProd.Size = new System.Drawing.Size(110, 26);
-            this.txtCodProd.TabIndex = 4;
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(352, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(79, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Produtora";
             // 
-            // txtTelProd
+            // label2
             // 
-            this.txtTelProd.Location = new System.Drawing.Point(176, 102);
-            this.txtTelProd.Name = "txtTelProd";
-            this.txtTelProd.Size = new System.Drawing.Size(174, 26);
-            this.txtTelProd.TabIndex = 5;
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(25, 105);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(145, 20);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Telefone Produtora";
             // 
-            // txtProd
+            // label1
             // 
-            this.txtProd.Location = new System.Drawing.Point(437, 37);
-            this.txtProd.Name = "txtProd";
-            this.txtProd.Size = new System.Drawing.Size(333, 26);
-            this.txtProd.TabIndex = 6;
-            // 
-            // txtEmailProd
-            // 
-            this.txtEmailProd.Location = new System.Drawing.Point(511, 105);
-            this.txtEmailProd.Name = "txtEmailProd";
-            this.txtEmailProd.Size = new System.Drawing.Size(259, 26);
-            this.txtEmailProd.TabIndex = 7;
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(25, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(133, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Código Produtora";
             // 
             // btnPrimeiro
             // 
@@ -180,6 +180,7 @@ namespace prjLocadora
             this.btnNovo.TabIndex = 12;
             this.btnNovo.Text = "&Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // btnSalvar
             // 
@@ -189,6 +190,7 @@ namespace prjLocadora
             this.btnSalvar.TabIndex = 13;
             this.btnSalvar.Text = "&Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnExcluir
             // 
@@ -228,6 +230,7 @@ namespace prjLocadora
             this.Name = "Produtoras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProdutora";
+            this.Load += new System.EventHandler(this.Produtoras_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
