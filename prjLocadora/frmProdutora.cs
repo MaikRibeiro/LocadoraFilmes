@@ -13,7 +13,7 @@ namespace prjLocadora
 {
     public partial class Produtoras : Form
     {
-        String connectionString = @"Server=DARNASSUS\MOTORHEAD;Database=db_230644;User Id=230644;Password=A12345678a;";
+        String connectionString = @"Server=;Database=;User Id=;Password=;";
         bool novo;
 
         public Produtoras()
@@ -136,6 +136,16 @@ namespace prjLocadora
                     con.Close();
                 }
             }
+            btnSalvar.Enabled = false;
+            btnNovo.Enabled = true;
+            txtProd.Enabled = false;
+            txtEmailProd.Enabled = false;
+            txtTelProd.Enabled = false;
+            btnExcluir.Enabled = true;
+            btnPrimeiro.Enabled = true;
+            btnProximo.Enabled = true;
+            btnUltimo.Enabled = true;
+            btnAlterar.Enabled = true;
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
